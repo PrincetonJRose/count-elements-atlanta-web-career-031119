@@ -23,4 +23,5 @@ def count_elements(element)
   counting.each do |key|
     final_count[key] = counts[num += 1]
   end
+  return final_count
 end

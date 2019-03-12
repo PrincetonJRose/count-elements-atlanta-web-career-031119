@@ -1,4 +1,4 @@
-def count_elements(array)
+def count_elements(element)
   # code goes here
   counts = []
   counting = []

@@ -2,6 +2,7 @@ def count_elements(array)
   # code goes here
   counts = []
   counting = []
+  final_count = {}
   for item in element
     if counting.include?(item)
       next
@@ -20,6 +21,6 @@ def count_elements(array)
   end
   num = -1
   counting.each do |key|
-    key[:count] = counts[num += 1]
+    final_count[key] = counts[num += 1]
   end
 end
